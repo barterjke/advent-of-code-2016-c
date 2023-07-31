@@ -126,6 +126,7 @@ int visited_twice(char *buff) {
 }
 
 int main() {
+  char bufff[16];
   FILE *file = fopen("input.txt", "r");
   char buff[BUFF_SIZE];
   memset(buff, 0, BUFF_SIZE);
